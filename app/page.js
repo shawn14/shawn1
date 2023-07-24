@@ -29,7 +29,7 @@ setResponse(data.choices[0].message.content)
   return (
     <div className='w-full h-screen flex items-center justify-center'>
       <div className="w-[600px] flex-col flex items-center justify-center border-gray-100 bg-blue-50 border p-10 rounded-2xl shadow-2xl"> 
-        <div className="text-lg font-bold mb-10">openai api example</div>
+        <div className="text-lg font-bold mb-10">ChatGPT</div>
         <textarea className="w-full bg-gray-50 p-4" rows="10" placeholder='Enter Text Here'ref={textRef}> 
           
         </textarea>
